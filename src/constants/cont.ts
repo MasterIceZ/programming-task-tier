@@ -7,5 +7,9 @@ export const contents: ICont[] = [
     {
         name: 'Breadth First Search',
         url: './bfs'
+    },
+    {
+        name: 'Sweepline',
+        url: './sweepline'
     }
 ]
