@@ -144,5 +144,10 @@ export const dp: IDp[] = [
     name: 'Rose Buy',
     url: 'https://beta.programming.in.th/tasks/codecube_107',
     algo: 'Dynamic Programming(Quick Sum + Knapsack)'
+  },
+  {
+    name: 'Mutate DNA',
+    url: 'https://oj.uz/problem/view/IOI21_dna',
+    algo: 'Dynamic Programming(Quick Sum)'
   }
 ]

@@ -19,5 +19,9 @@ export const contents: ICont[] = [
     {
         name: 'Greedy',
         url: './greedy'
+    },
+    {
+        name: 'Easy Problems',
+        url: './easy'
     }
 ]
