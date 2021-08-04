@@ -11,5 +11,13 @@ export const contents: ICont[] = [
     {
         name: 'Sweepline',
         url: './sweepline'
+    },
+    {
+        name: 'Dynamic Programming',
+        url: './dp'
+    },
+    {
+        name: 'Greedy',
+        url: './greedy'
     }
 ]

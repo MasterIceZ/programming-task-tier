@@ -5,6 +5,7 @@ import { ICont, contents } from '../constants/cont'
 import styles from '../../styles/Home.module.css'
 import Link from 'next/link'
 import { style } from 'styled-system'
+import { FaGithubAlt } from 'react-icons/fa'
 
 const IndexPage = () => {
   return (
@@ -25,6 +26,11 @@ const IndexPage = () => {
           </Box>
         ))}
       </Flex>
+      <div className={styles.footer}>
+        <a href="https://github.com/MasterIceZ/programming-task-tier" target="_blank">
+          <Box as={FaGithubAlt} size={6}/>
+        </a>
+      </div>
     </Flex>
   )
 }

@@ -1,0 +1,40 @@
+import React from 'react'
+import { Box, Flex, Heading, Text } from '@chakra-ui/core'
+import { IDp, dp } from '../constants/dp'
+import { Card } from './Card'
+import { Title } from './Title'
+import styles from '../../styles/Home.module.css'
+
+export const Dp = () => {
+  return (
+    <React.Fragment>
+      <Title title="Dynamic Programming" />
+      <Flex
+        direction="column"
+        mt={6}
+        width={[23 / 24, 23 / 24, 22 / 24, 22 / 24]}
+        mx="auto"
+      >
+        <Flex flexWrap="wrap" alignItems="center">
+          {dp.map((dp: IDp) => (
+            <Box width={['100%', '100%', 1 / 3, 1 / 3]} px={5} py={3}>
+              <Card {...dp}>
+                <a href={dp.url} target="_blank">
+                <Heading size="md">{dp.name}</Heading>
+                </a>
+                <Text color="gray.500">{dp.algo}</Text>
+              </Card>
+            </Box>
+          ))}
+        </Flex>
+      </Flex>
+      <div className={styles.footer}>
+        <div className={styles.back}>
+          <a href="./">
+            Back
+          </a>
+        </div>
+      </div>
+    </React.Fragment>
+  )
+}
