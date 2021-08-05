@@ -1,4 +1,3 @@
-import { BFS } from '../components/Bfs'
 import { Box, Flex, Heading, Text } from '@chakra-ui/core'
 import { Card } from '../components/Card'
 import { ICont, contents } from '../constants/cont'
@@ -12,7 +11,7 @@ const IndexPage = () => {
     <Flex direction="column" my={20}>
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Task Tier Provied by Hydrolyzed~
+          Task Tier
         </h1>
       </main>
       <Flex flexWrap="wrap" alignItems="center">
@@ -27,9 +26,10 @@ const IndexPage = () => {
         ))}
       </Flex>
       <div className={styles.footer}>
-        <a href="https://github.com/MasterIceZ/programming-task-tier" target="_blank">
-          <Box as={FaGithubAlt} size={6}/>
-        </a>
+        <Text color="gray.500">
+          Provied by Hydrolyzed (2021)
+        </Text>
+        
       </div>
     </Flex>
   )

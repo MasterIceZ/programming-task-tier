@@ -21,6 +21,7 @@ export default class CustomApp extends App {
       <ThemeProvider theme={customTheme}>
         <Head>
           <title>Task Tier</title>
+          <link rel="shortcut icon" href="../../public/favicon.ico"/>
         </Head>
         <CSSReset />
         <Global
