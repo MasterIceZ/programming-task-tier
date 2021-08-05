@@ -104,5 +104,10 @@ export const easy: IEasy[] = [
     name: 'Jet and Alphabets',
     url: 'https://beta.programming.in.th/tasks/codecube_059',
     algo: 'Implementation'
+  },
+  {
+    name: 'A + B',
+    url: 'https://beta.programming.in.th/tasks/0000',
+    algo: 'Implementation'
   }
 ]
