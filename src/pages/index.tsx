@@ -18,9 +18,11 @@ const IndexPage = () => {
         {contents.map((cont: ICont) => (
           <Box width={['100%', '100%', 1 / 3, 1 / 3]} px={5} py={3}>
             <Card {...cont}>
-              <a href={cont.url} target="_blank">
+              <Link href={cont.url}>
+              <a>
                 <Heading size="md">{cont.name}</Heading>
               </a>
+              </Link>
             </Card>
           </Box>
         ))}
