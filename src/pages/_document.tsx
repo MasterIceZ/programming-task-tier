@@ -17,7 +17,7 @@ class NextDocument extends Document {
     return (
       <Html lang="en">
         <Head>
-          <link rel="shortcut icon" href="/assets/favicon.png" />
+          <link rel="icon" href="./favicon.ico" />
           <meta name="theme-color" content="#ffffff" />
           <meta
             name="viewport"

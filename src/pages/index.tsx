@@ -28,10 +28,13 @@ const IndexPage = () => {
         ))}
       </Flex>
       <div className={styles.footer}>
-        <Text color="gray.500">
-          Provied by Hydrolyzed (2021)
-        </Text>
-        
+        <Link href='https://vercel.com'>
+          <img width="100px" src='./vercel.svg' />
+        </Link>
+        <Text color='grey.500'>&nbsp; &nbsp;</Text>
+        <Link href="https://github.com/MasterIceZ/programming-task-tier">
+          <img width="35px" src='./github.svg' />
+        </Link>
       </div>
     </Flex>
   )
